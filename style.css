@@ -1,7 +1,40 @@
+body::before{
+    display: block;
+    content: '';
+    height: 80px;
+}
 .text1{
     width: 143px;
 }
 .right {
     /* border: 1px solid; */
     height: 83px;
+}
+.profile{
+    width: 120px;
+    height: 48px;
+}
+.profile h3 {
+    font-size: 20px;
+}
+
+.yy::before{
+    content: 'View all ';
+    color: blue;
+    position: absolute;
+    top: 840px;
+    left: 820px;
+}
+
+.colums-cal{
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+}
+.colums-cal2{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
