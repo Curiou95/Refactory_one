@@ -27,9 +27,10 @@ body::before{
 }
 
 .colums-cal{
-    border: 1px solid;
+    border-radius: 4px;
     width: 30px;
     height: 30px;
+    background: #e2e0e096;
 }
 .colums-cal2{
     width: 30px;
@@ -37,4 +38,18 @@ body::before{
     display: flex;
     justify-content: center;
     align-items: end;
+}
+.kk{
+    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+    background: #e2e0e096;
+}
+.okl p{
+    font-size: 10px;
+    margin: 0 5px;
+}
+.okls p{
+    font-size: 13px;
+    margin: 0 5px;
 }
