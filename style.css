@@ -6,6 +6,35 @@ body::before{
     content: '';
     height: 80px;
 }
+
+footer {
+    padding: 85px 0;
+}
+.single-box p {
+    line-height: 1.9;
+}
+.single-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+#card-area{
+    height: 100%;
+}
+
+.single-box ul li a {
+    text-decoration: none;
+    color: #000;
+    line-height: 2.5;
+    font-weight: 100;
+}
+.single-box ul li {
+    list-style: none;
+}
+.single-box ul{
+    padding: 0;
+
+}
+
 .text1{
     width: 143px;
 }
